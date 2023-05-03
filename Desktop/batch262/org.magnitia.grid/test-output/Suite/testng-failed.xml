@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="4" name="Test2(failed)" parallel="tests">
+    <parameter name="bn" value="firefox"/>
+    <parameter name="url" value="http://192.168.0.101:5557/wd/hub"/>
+    <classes>
+      <class name="mypack.Test2">
+        <methods>
+          <include name="method" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- mypack.Test2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
