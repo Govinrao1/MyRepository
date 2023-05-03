@@ -1,0 +1,4 @@
+# Created at 2023-03-12T11:55:20.146
+Boot Manifest-JAR contains absolute paths in classpath 'E:\batch262\org.magnitia.jenkinsdemo\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
