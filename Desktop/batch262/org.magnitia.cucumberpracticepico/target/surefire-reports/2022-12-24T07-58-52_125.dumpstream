@@ -1,0 +1,4 @@
+# Created at 2022-12-24T07:58:52.488
+Boot Manifest-JAR contains absolute paths in classpath 'E:\batch262\org.magnitia.cucumberpracticepico\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

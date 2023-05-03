@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="633" started-at="2022-12-18T11:20:40 IST" finished-at="2022-12-18T11:20:40 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5@2f0a87b3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="633" started-at="2022-12-18T11:20:40 IST" finished-at="2022-12-18T11:20:40 IST">
+      <class name="tests.Runner5">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.Runner5@2f0a87b3]" name="setUpClass" is-config="true" duration-ms="462" started-at="2022-12-18T11:20:40 IST" finished-at="2022-12-18T11:20:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d3c5255]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner5@2f0a87b3]" name="runScenario" duration-ms="110" started-at="2022-12-18T11:20:40 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-18T11:20:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at gluecode.StepDefs3.method6(StepDefs3.java:45)
+at ✽.I want to write a step with precondition(file:///E:/batch262/org.magnitia.cucumberpracticepico/src/test/resources/features/dummy.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.Runner5@2f0a87b3]" name="tearDownClass" is-config="true" duration-ms="36" started-at="2022-12-18T11:20:40 IST" finished-at="2022-12-18T11:20:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.Runner5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
